@@ -160,10 +160,10 @@ ol {
     content: '';
     display: none;
     width: 15px;
-    height: 16px;
+    height: 15px;
     background-color: #fff;
     position: absolute;
-    margin: 1px;
+    inset: 1px;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
